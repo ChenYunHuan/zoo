@@ -5,3 +5,13 @@ server:
 girl:
   age:  18
   size: b
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: 99036434
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
