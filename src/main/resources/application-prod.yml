@@ -1,0 +1,6 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /chen
+age: 18
+size: b
