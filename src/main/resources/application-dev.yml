@@ -15,3 +15,8 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+mybatis:
+  type-aliases-package: com.chen.pro.zoo.entity
+  config-locations: classpath:mybatis/mybatis-config.xml
+  mapper-locations:
+    - classpath:mybatis/mapper/*.xml
